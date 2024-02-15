@@ -1,0 +1,102 @@
+/* Assignment 1 */
+
+                            /* Simple selector */
+
+  body{
+    margin: 0px;
+}
+
+header{
+    text-align: center;
+    background-color: red;
+    padding: 10px 15px;
+}
+
+a{
+    color: blue;
+    text-decoration: none;
+}
+
+menu{
+    list-style: none;
+}
+
+
+                            /* Combinator selector */
+
+header > h1{
+    color: f4f4f4;
+}
+
+                            /* Contextual selector */
+
+section div{
+    padding: 5px;
+}
+
+                            /* Grouped selector */
+
+h2, h3{
+    font-size: 20px;
+}
+
+
+                            /* Class selector */
+
+.example-row{
+    background-color: burlywood;
+}
+
+                            /* ID selector */
+
+#six-column{
+    background-color: aqua;
+}
+
+                            /* Pseudo-Class selector */
+
+a:visited {
+    color: green;
+  }
+                            
+a:focus {
+    color: brown;
+}
+                            
+                            
+a:hover {
+    color: darkkhaki;
+}
+
+a:active {
+    color: chartreuse;
+}
+
+                            /* Structural Pseudo-Class selector */
+
+  li:first-child{
+    color: red;
+}
+
+  /* li:last-child{
+    color: blue;
+} */
+
+li:nth-child(odd){
+    color: greenyellow;
+}
+
+
+
+                            /* Pseudo-Element selector */
+
+p::first-letter{
+    font-size: x-large;
+}
+
+                            /* Attribute selector */
+
+
+a[target]{
+    color: tomato;
+}

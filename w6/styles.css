@@ -1,0 +1,60 @@
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+header {
+  background-color: salmon; 
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-family: 'Arial Black', sans-serif; 
+}
+
+main {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  text-align: center;
+  gap: 25px;
+  background-image: url('./background.avif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+section > * {
+  color: white;
+}
+
+
+h2 {
+  color: #666;
+  font-size: 1.2em; 
+  margin-bottom: 10px;
+}
+
+p {
+  line-height: 1.5;
+}
+
+footer {
+  background-color: salmon; 
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
